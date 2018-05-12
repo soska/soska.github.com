@@ -5,7 +5,7 @@ module.exports = {
     description: 'What is a blog.',
     siteUrl: 'https://armandososa.org',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  pathPrefix: '/blog',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -54,4 +54,4 @@ module.exports = {
       },
     },
   ],
-}
+};
