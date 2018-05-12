@@ -1,0 +1,2 @@
+webpackJsonp([0xe406f39d6ac8],{385:function(a,t){a.exports={data:{site:{siteMetadata:{title:"Armando Sosa",author:"Armando Sosa"}},markdownRemark:{id:"/Users/soska/dev/personal/blog/gatsby-blog/src/pages/2018-05-11-first/index.md absPath of file >>> MarkdownRemark",html:"<p>I’m back to blogging, I guess.</p>",frontmatter:{title:"First",date:"May 12, 2018"}}},pathContext:{slug:"/2018-05-11-first/",previous:null,next:null}}}});
+//# sourceMappingURL=path---2018-05-11-first-13719c7f79758b79248f.js.map

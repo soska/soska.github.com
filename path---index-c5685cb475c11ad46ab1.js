@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{388:function(t,e){t.exports={data:{site:{siteMetadata:{title:"Armando Sosa"}},allMarkdownRemark:{edges:[{node:{excerpt:"I’m back to blogging, I guess.",fields:{slug:"/2018-05-11-first/"},frontmatter:{date:"12 May, 2018",title:"First"}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-c5685cb475c11ad46ab1.js.map
