@@ -1,6 +1,6 @@
-import gray from 'gray-percentage';
-import type { OptionsType } from 'Types';
-import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants';
+import gray from 'gray-percentage'
+import type { OptionsType } from 'Types'
+import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants'
 
 const theme: OptionsType = {
   title: 'Wordpress Theme 2016',
@@ -81,6 +81,6 @@ const theme: OptionsType = {
       textDecoration: 'none',
     },
   }),
-};
+}
 
-export default theme;
+export default theme

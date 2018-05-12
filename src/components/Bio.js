@@ -28,7 +28,9 @@ class Role extends React.Component {
   }
 
   componentWillUnmount() {
-    this.clearTimeout(this.timeout);
+    if (this.timeout) {
+      this.clearTimeout(this.timeout);
+    }
   }
 
   render() {
