@@ -1,8 +1,17 @@
 import React from 'react';
 import { rhythm } from '../utils/typography';
 import gray from 'gray-percentage';
+import shuffle from '../utils/shuffle';
 
-const roles = ['Christian', 'Husband', 'Developer', 'Musician'];
+const roles = shuffle([
+  'Christian',
+  'Husband',
+  'Developer',
+  'Musician',
+  'Mexican',
+]);
+
+console.log('ROLES', roles);
 
 class Role extends React.Component {
   state = {
@@ -20,7 +29,7 @@ class Role extends React.Component {
     this.setState({ currentRole });
     this.timeout = window.setTimeout(() => {
       this.changeRole();
-    }, 1000);
+    }, 2500);
   }
 
   componentDidMount() {
