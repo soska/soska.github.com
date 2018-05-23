@@ -1,14 +1,20 @@
-import gray from 'gray-percentage'
-import type { OptionsType } from 'Types'
-import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants'
+import gray from 'gray-percentage';
+import type { OptionsType } from 'Types';
+import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants';
 
 const theme: OptionsType = {
-  title: 'Wordpress Theme 2016',
+  title: 'soska-theme-2018',
   baseFontSize: '16px',
   baseLineHeight: 1.75,
   scaleRatio: 5 / 2,
-  headerFontFamily: ['Helvetica Neue', 'Helvetica', 'sans-serif'],
-  bodyFontFamily: ['Helvetica Neue', 'Helvetica', 'sans-serif'],
+  googleFonts: [
+    {
+      name: 'Noto Serif',
+      styles: ['400', '400i', '700'],
+    },
+  ],
+  headerFontFamily: ['Noto Serif', 'monospace'],
+  bodyFontFamily: ['Noto Serif', 'monospace'],
   bodyColor: '#333',
   headerWeight: 900,
   bodyWeight: 400,
@@ -18,9 +24,9 @@ const theme: OptionsType = {
       background: '#fafaf0',
       borderTop: '12px solid #ff7675',
     },
-    h1: {
-      fontFamily: ['Helvetica Neue', 'Helvetica', 'sans-serif'].join(','),
-    },
+    // h1: {
+    //   fontFamily: ['Helvetica Neue', 'Helvetica', 'sans-serif'].join(','),
+    // },
     blockquote: {
       ...scale(1 / 5),
       color: gray(41),
@@ -67,12 +73,13 @@ const theme: OptionsType = {
       fontStyle: 'italic',
     },
     a: {
-      boxShadow: '0 1px 0 0 currentColor',
-      color: '#007acc',
+      // boxShadow: '0 1px 0 0 currentColor',
+      color: 'tomato',
       textDecoration: 'none',
+      borderBottomColor: 'blue',
     },
     'a:hover,a:active': {
-      boxShadow: 'none',
+      color: 'crimson',
     },
     'mark,ins': {
       background: '#007acc',
@@ -81,6 +88,8 @@ const theme: OptionsType = {
       textDecoration: 'none',
     },
   }),
-}
+};
 
-export default theme
+console.log(theme);
+
+export default theme;

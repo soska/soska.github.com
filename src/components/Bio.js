@@ -7,11 +7,10 @@ const roles = shuffle([
   'Christian',
   'Husband',
   'Developer',
+  'Designer',
   'Musician',
   'Mexican',
 ]);
-
-console.log('ROLES', roles);
 
 class Role extends React.Component {
   state = {
@@ -38,7 +37,7 @@ class Role extends React.Component {
 
   componentWillUnmount() {
     if (this.timeout) {
-      this.clearTimeout(this.timeout);
+      window.clearTimeout(this.timeout);
     }
   }
 
@@ -52,13 +51,14 @@ class Role extends React.Component {
       <span
         style={{
           display: 'inline-block',
-          padding: rhythm(0.3),
-          paddingLeft: rhythm(0.6),
-          paddingRight: rhythm(0.6),
-          color: '#6c5ce7',
-          background: '#fafad9',
-          borderRadius: 2,
-          boxShadow: 'rgba(0,0,0,.05) 6px 6px 0px',
+          color: 'tomato',
+          // padding: rhythm(0.2),
+          // paddingLeft: rhythm(0.6),
+          // paddingRight: rhythm(0.6),
+          // color: '#555',
+          // background: '#fafad9',
+          // borderRadius: 2,
+          // boxShadow: 'rgba(0,0,0,.05) 6px 6px 0px',
         }}
       >
         {role}
@@ -77,10 +77,11 @@ class Bio extends React.Component {
           color: gray(45),
           fontWeight: 900,
           fontSize: rhythm(1.2),
+          lineHeight: rhythm(1.6),
         }}
       >
-        Hello! I am a <Role roles={roles} /> currently living in Guadalajara,
-        Mexico.
+        I am Armando Sosa. A <Role roles={roles} /> currently living in
+        Guadalajara, Mexico. Welcome to my site.
       </div>
     );
   }
