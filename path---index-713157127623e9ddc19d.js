@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{391:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Armando Sosa"}},allMarkdownRemark:{edges:[{node:{excerpt:"The idea of writting again is terrifying. Yes, I used to write regularly in bloig-form for almost 6 years starting in 2004 and then I…",fields:{slug:"/2018/5/23/hello-world/"},frontmatter:{date:"23 May, 2018",title:"Hello World. Again."}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-713157127623e9ddc19d.js.map
