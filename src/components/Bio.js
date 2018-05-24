@@ -49,7 +49,7 @@ class Role extends React.Component {
 
     return (
       <span
-        style={{
+        css={{
           display: 'inline-block',
           color: 'tomato',
           // padding: rhythm(0.2),
@@ -71,7 +71,7 @@ class Bio extends React.Component {
   render() {
     return (
       <div
-        style={{
+        css={{
           marginBottom: rhythm(2.5),
           alignItems: 'center',
           color: gray(45),

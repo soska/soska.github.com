@@ -13,7 +13,7 @@ const FooterLink = ({ link }) => {
   const [label, url] = link;
   return (
     <a
-      style={{
+      css={{
         padding: rhythm(0.25),
         margin: rhythm(0.25),
       }}
@@ -28,7 +28,7 @@ class Footer extends React.Component {
   render() {
     return (
       <div
-        style={{
+        css={{
           padding: rhythm(1),
           display: 'flex',
           justifyContent: 'center',

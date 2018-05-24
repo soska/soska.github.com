@@ -2,20 +2,9 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Footer from '../components/footer';
 import Logo from '../components/logo';
+import gray from 'gray-percentage';
 
 import { rhythm, scale } from '../utils/typography';
-
-const logo = (
-  <div style={{ padding: '22px', textAlign: 'center', background: 'white' }}>
-    <svg style={{ width: '60px' }} viewBox="0 0 800 800">
-      <defs />
-      <path
-        style={{ fill: 'tomato' }}
-        d="M799.86,114.54V.25H-.14V343.11h684V459H-.14V800.25h800V228.82H115.31V114.54ZM115.31,686V573.27H683.83V686Z"
-      />
-    </svg>
-  </div>
-);
 
 const Header = () => {
   return (
@@ -40,6 +29,39 @@ const Header = () => {
   );
 };
 
+const NavLink = ({ to, children }) => (
+  <Link
+    css={{
+      fontSize: rhythm(0.45),
+      textTransform: 'uppercase',
+      letterSpacing: '0.04em',
+      display: 'block',
+      padding: rhythm(0.5),
+      color: gray(40),
+      '&:hover': {
+        color: 'tomato',
+      },
+    }}
+    to={to}
+  >
+    {children}
+  </Link>
+);
+
+const Nav = () => (
+  <nav
+    css={{
+      display: 'flex',
+      justifyContent: 'center',
+      borderBottom: `1px solid ${gray(95)}`,
+    }}
+  >
+    <NavLink to="/">Home</NavLink>
+    <NavLink to="/about">About</NavLink>
+    <NavLink to="/projects">Projects</NavLink>
+  </nav>
+);
+
 class Template extends React.Component {
   render() {
     const { location, children } = this.props;
@@ -53,6 +75,7 @@ class Template extends React.Component {
     return (
       <div>
         <Logo />
+        <Nav />
         <div
           style={{
             marginLeft: 'auto',
@@ -63,7 +86,6 @@ class Template extends React.Component {
           }}
         >
           {location.pathname === rootPath && <Header />}
-          {header}
           {children()}
         </div>
         <Footer />

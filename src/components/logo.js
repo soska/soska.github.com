@@ -7,7 +7,7 @@ class Logo extends React.Component {
   render() {
     return (
       <div
-        style={{
+        css={{
           padding: '22px',
           textAlign: 'center',
           background: 'white',
@@ -15,10 +15,10 @@ class Logo extends React.Component {
         }}
       >
         <Link to="/">
-          <svg style={{ width: '50px' }} viewBox="0 0 800 800">
+          <svg css={{ width: '50px' }} viewBox="0 0 800 800">
             <defs />
             <path
-              style={{ fill: 'tomato' }}
+              css={{ fill: 'tomato' }}
               d="M799.86,114.54V.25H-.14V343.11h684V459H-.14V800.25h800V228.82H115.31V114.54ZM115.31,686V573.27H683.83V686Z"
             />
           </svg>

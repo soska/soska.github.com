@@ -1,7 +1,7 @@
 const fs = require('mz/fs');
 const mkdir = require('mz-modules/mkdirp');
 const path = require('path');
-const pagesPath = path.resolve(__dirname, 'src/pages');
+const pagesPath = path.resolve(__dirname, 'src/posts');
 const _ = require('lodash');
 
 const getPostPath = postName => {

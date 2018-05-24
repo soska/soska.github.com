@@ -40,6 +40,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         const posts = result.data.allMarkdownRemark.edges;
 
         _.each(posts, (post, index) => {
+          console.log('POST===>', post);
           const previous =
             index === posts.length - 1 ? null : posts[index + 1].node;
           const next = index === 0 ? null : posts[index - 1].node;
@@ -64,6 +65,7 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
 
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode });
+    console.log('VALUE==>', value);
     createNodeField({
       name: `slug`,
       node,
