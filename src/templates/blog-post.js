@@ -6,6 +6,7 @@ import get from 'lodash/get';
 import { rhythm, scale } from '../utils/typography';
 
 const BlogPostHeader = ({ post }) => {
+  console.log(post);
   return (
     <div
       style={{
@@ -101,6 +102,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        subtitle
         date(formatString: "MMMM DD, YYYY")
       }
     }

@@ -5,6 +5,7 @@ import gray from 'gray-percentage';
 const links = [
   ['Twitter', 'https://twitter.com/soska'],
   ['Instagram', 'https://instagram.com/soska'],
+  ['Dribbble', 'https://dribbble.com/soska'],
   ['Github', 'https://github.com/soska'],
 ];
 
