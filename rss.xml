@@ -1,4 +1,184 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Armando Sosa]]></title><description><![CDATA[What is a blog.]]></description><link>https://armandososa.org</link><generator>RSS for Node</generator><lastBuildDate>Thu, 24 May 2018 23:04:31 GMT</lastBuildDate><item><title><![CDATA[Hello World. Again.]]></title><description><![CDATA[The idea of writting again is terrifying. Yes, I used to write regularly in bloig-form for almost 6 years starting in 2004 and then I…]]></description><link>https://armandososa.org/2018/5/23/hello-world/</link><guid isPermaLink="false">https://armandososa.org/2018/5/23/hello-world/</guid><pubDate>Wed, 23 May 2018 21:49:32 GMT</pubDate><content:encoded>&lt;p&gt;The idea of writting again is terrifying.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Armando Sosa]]></title><description><![CDATA[What is a blog.]]></description><link>https://armandososa.org</link><generator>RSS for Node</generator><lastBuildDate>Sat, 26 May 2018 00:24:50 GMT</lastBuildDate><item><title><![CDATA[So you want to build a blog with Gatsby?]]></title><description><![CDATA[This site runs on  Gatsby , the open source static website generator
+that just recently  became a venture backed company  and I’m liking it…]]></description><link>https://armandososa.org/2018/5/25/gatsby/</link><guid isPermaLink="false">https://armandososa.org/2018/5/25/gatsby/</guid><pubDate>Fri, 25 May 2018 18:46:40 GMT</pubDate><content:encoded>&lt;p&gt;This site runs on &lt;a href=&quot;https://gatsbyjs.com&quot;&gt;Gatsby&lt;/a&gt;, the open source static website generator
+that just recently &lt;a href=&quot;https://www.gatsbyjs.org/blog/2018-05-24-launching-new-gatsby-company/&quot;&gt;became a venture backed company&lt;/a&gt; and I’m liking it a lot. Look, this is just the third CMS I have used in my &lt;em&gt;whole life&lt;/em&gt; so it’s kinda big deal. My first blog, around 2003, was done in &lt;a href=&quot;https://www.movabletype.org/&quot;&gt;Movable Type&lt;/a&gt; 2 and I only switched to WordPress in 2006.&lt;/p&gt;
+&lt;p&gt;WordPress was not only my CMS of choice, it also became a good chunk of my livelihood so the decision of switching to something else did not come easy. But all my research indicates that static web builders are the future and Gatsby seems to be the best choice for my needs.&lt;/p&gt;
+&lt;p&gt;Still, it wasn’t exactly easy to get this site to a point where I’m satisfied with the end-product. My guess is that other people may be in the same position I was, so, here are some things I learned in my journey to Gatsby that may be helpful to others.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/gatsby-ss-4957c24e50345a12bf6e3640247b47df-be672.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 49.826187717265356%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABrklEQVQoz42S2y47URTG+0Jc8CJceAEJj0DE6RIPIMTpyilu3SBohaJB80dQotVQZYZ2Zjp79qEznc/ee+JQSv472Vlrdmb/1vq+vWKcCpSeXdiWDUopgiDQ2/f9hlHt91ULajqWDYL5kT1M9W0hRioU+SsDd7k8DNMA5wyiKkAIgRBCFvHkGYfrumCM6fwrzDIj2GTvJmYG4xGwYhFw6iOU/4S1EFUeyAshAr+m8zBE3WoEm5Ww6f5txDwJPNq8we7qBU73crhI3eN8P4+bf0VcHt0jtX4N4jANCCU5+AU2MxDtGCUMp8kc0jtZHK5ncLCWwVkyj+OtW2TSBZzEs6Cu0JC/YLNDCQy0L0vJDkU6cas7TG1cwy650gIPgvmRZCHlSxuUBY1lxjGnYG1L6Gwejzx0ygQvRVtHRjk82bXg1S+e/R+su3VSeugylIwKzKIF89HC65OjO1SF1Eip7iKY90Pmd9gH0ChYeMiaKOReYMq8UvZ0l67t6flTc7YwWv+aKn6HdbVMRJLVwyipzOM6V0X0ufx+fXawOJbERM8nbG44geGOFXQ21cNUfAPpXbArBvd7YwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;gatsby ss&quot;
+        title=&quot;&quot;
+        src=&quot;/static/gatsby-ss-4957c24e50345a12bf6e3640247b47df-fb8a0.png&quot;
+        srcset=&quot;/static/gatsby-ss-4957c24e50345a12bf6e3640247b47df-1a291.png 148w,
+/static/gatsby-ss-4957c24e50345a12bf6e3640247b47df-2bc4a.png 295w,
+/static/gatsby-ss-4957c24e50345a12bf6e3640247b47df-fb8a0.png 590w,
+/static/gatsby-ss-4957c24e50345a12bf6e3640247b47df-be672.png 863w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Don’t start from scratch&lt;/h2&gt;
+&lt;p&gt;Gatsby is written in JavaScript and it works thanks using a combination of a many cutting-edge technologies. The stack is so hip that it sounds like somebody’s making a parody of the modern web stack: Node, React, Webpack, Babel, ES6, GraphQL, plus Markdown and CSS-in-js for a blog like the one you’re reading. I think these technologies are great —I even work with most of them on a daily basis!—, but I think it can get very overwhelming very fast.&lt;/p&gt;
+&lt;p&gt;So, if you want to build a blog, your first instinct may be to &lt;a href=&quot;https://medium.freecodecamp.org/how-to-build-a-react-and-gatsby-powered-blog-in-about-10-minutes-625c35c06481&quot;&gt;follow a tutorial like this&lt;/a&gt;. Don’t bother. Instead, use &lt;a href=&quot;https://github.com/gatsbyjs/gatsby-starter-blog&quot;&gt;Gatsby’s official starter blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now, both the design and structure of the starter blog are very opinionated and it can be hard to find how to customize it. Don’t panic. I will teach you how.&lt;/p&gt;
+&lt;h2&gt;Get a base style to your liking.&lt;/h2&gt;
+&lt;p&gt;If you’re from the old school, like me, the first thing you’ll want to do is find the master CSS file to &lt;code class=&quot;language-text&quot;&gt;cmd+a&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;delete&lt;/code&gt; everything and start your design from scratch. Spoiler alert: You’ll not find a single CSS file in your Gatsby installation.&lt;/p&gt;
+&lt;p&gt;The styles you see on screen will come from two places: either from a package called &lt;a href=&quot;https://kyleamathews.github.io/typography.js/&quot;&gt;typography.js&lt;/a&gt; or from inline style definitions. I know. Breath. Don’t get angry. This is 2018 and kids these days like to put their CSS in their JS. Stay with me and I’ll show you that it ain’t so bad.&lt;/p&gt;
+&lt;p&gt;So, first things first, open the &lt;code class=&quot;language-text&quot;&gt;src/utils/typography.js&lt;/code&gt; file and see that it’s importing something called &lt;code class=&quot;language-text&quot;&gt;Wordpress2016&lt;/code&gt; (don’t tell Matt about that lowercase p) from a package called &lt;code class=&quot;language-text&quot;&gt;typography-theme-wordpress-2016&lt;/code&gt;. If you &lt;a href=&quot;https://github.com/KyleAMathews/typography.js/blob/master/packages/typography-theme-wordpress-2016/src/index.js&quot;&gt;look at that package contents&lt;/a&gt; you’ll see that it’s a configuration object for the typography.js plugin. What that means is that this file &lt;strong&gt;determines the global styles for your site&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;If you just don’t like this theme, there’s a number of oficially maintained &lt;a href=&quot;https://github.com/KyleAMathews/typography.js/tree/master/packages&quot;&gt;ones you can chose from&lt;/a&gt;. For example, if you’re feeling retro you can just install a theme inspired in the old &lt;a href=&quot;http://binarybonsai.com/kubrick/&quot;&gt;Kubrick WP theme&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Install it using npm:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install --save typography-theme-wordpress-kubrick&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Then import that package from the &lt;code class=&quot;language-text&quot;&gt;src/utils/typography.js&lt;/code&gt; instead.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Typography &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;typography&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// import Wordpress2016 from &apos;typography-theme-wordpress-2016&apos;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Wordpress2016 &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;typography-theme-wordpress-kubrick&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Restart your server and voila, you’re in 2006.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/kubrick-50f17b0a082432a8394309ba3589b005-78313.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 64.1955835962145%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABeklEQVQ4y6VS226DMAzt///R1ofuobx0e5xapk2j3AIttwIJgVA4M2k79d5JO9KRHZMY+9gjEPq+1xzAeQkhBIqi0PbYr6oKZVkiTVI0TfP75vj96DxgmiaMqYHJZALDmGKxMDEej8k3MJu9Yj6f4/npWVNU8nrCQ3BAEkcoOD+5ePh2jG2rhgsnb08q7LpOB96mLzDn74iiGIHPsLSWsCwLjDEEwQosTOCHKdkMScZvV3j8JykVvr0UqziHoGrLkpMVpG8FLlsUQmnyqj3R8Sxhv+/gsr1HuNryIehEEl9M4JP44QtkpbrQ81zbuwmzTYl1vEHOG4i6Q9N2f6ru5tqswhCObcNzXaIDz/N2pLPjuHo4Pg3LcWwdV0rdT5hvaHrRGqqW6LcKLa1HXTd6kTX3vpRS24ctr/MWdtzAJVoriQ3f/q/ldZLDDVKkuUQuWshmqxd42NN+oPYvB3I7IWkY+D5pGcAn3ULm00KTTzHGdnY4D5qe6zfgB7Iw8PiPvWl9AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;kubrick&quot;
+        title=&quot;&quot;
+        src=&quot;/static/kubrick-50f17b0a082432a8394309ba3589b005-fb8a0.png&quot;
+        srcset=&quot;/static/kubrick-50f17b0a082432a8394309ba3589b005-1a291.png 148w,
+/static/kubrick-50f17b0a082432a8394309ba3589b005-2bc4a.png 295w,
+/static/kubrick-50f17b0a082432a8394309ba3589b005-fb8a0.png 590w,
+/static/kubrick-50f17b0a082432a8394309ba3589b005-78313.png 634w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Of course, you can write your own theme and just import from inside your project. That’s what I did.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Typography &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;typography&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Wordpress2016 &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../theme&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;And &lt;a href=&quot;https://github.com/soska/soska.github.com/blob/develop/src/utils/theme.js&quot;&gt;here’s my theme’s source&lt;/a&gt;, in case somebody wants it.&lt;/p&gt;
+&lt;p&gt;Remember, customizing this file will only affect your global base styles.&lt;/p&gt;
+&lt;h2&gt;Take control of your fonts.&lt;/h2&gt;
+&lt;p&gt;If you like Google’s webfonts, Typography.js has this very nice feature were you can tell it which fonts you’ll like to use and it will do all the &lt;code class=&quot;language-text&quot;&gt;@font-face&lt;/code&gt; enchanments for you. Just declare a googleFonts property in your theme with the name of the font you want and the variants you need.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;  &lt;span class=&quot;token comment&quot;&gt;// ...rest of theme object&lt;/span&gt;
+  googleFonts&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Noto Serif&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      styles&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;400&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;400i&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;700&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// ...more object configs&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;One more thing: for some reason, the &lt;code class=&quot;language-text&quot;&gt;blog-starter&lt;/code&gt; author didn’t want to use this feature, but you can go against his will and comment or delete this line in &lt;code class=&quot;language-text&quot;&gt;src/utils/typography.js&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;delete&lt;/span&gt; Wordpress2016&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;googleFonts&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Restart your server and you’ll be able to use the google fonts in your theme or in your component styles.&lt;/p&gt;
+&lt;h2&gt;Embrace CSS-in-JS&lt;/h2&gt;
+&lt;p&gt;At first, I tried to go against the current and just use a stylesheet like the good old times when we were young and The Big Bang Theory was still funny. And you know what? Not worth it.&lt;/p&gt;
+&lt;p&gt;The funny thing is that I’ve used almost every CSS-in-JS library for react (&lt;a href=&quot;https://github.com/cssinjs/jss&quot;&gt;JSS&lt;/a&gt;,&lt;a href=&quot;https://formidable.com/open-source/radium/&quot;&gt;Radium&lt;/a&gt;, &lt;a href=&quot;https://github.com/styled-components/styled-components&quot;&gt;StyledComponents&lt;/a&gt;, &lt;a href=&quot;https://github.com/paypal/glamorous&quot;&gt;Glamourous&lt;/a&gt;) in one way or another for apps in the past, but somehow it felt wrong within a content site. That’s old man nonsense.&lt;/p&gt;
+&lt;p&gt;By default, your Gatsby installation will be using React’s &lt;code class=&quot;language-text&quot;&gt;style&lt;/code&gt; property to customize components. For example, take a look into the header component defined in &lt;code class=&quot;language-text&quot;&gt;src/layouts/index.js&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h1
+  style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;scale&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    marginBottom&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;rhythm&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    marginTop&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Link
+    style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      boxShadow&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;none&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      textDecoration&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;none&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      color&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;inherit&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    to&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;/&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    Gatsby Starter Blog
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;Link&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;The problem with this approach is that when the components are rendered in the browser, those style objects will become inline styles and that’s not only disgusting it’s also very limiting. For example, you can’t define a &lt;code class=&quot;language-text&quot;&gt;:hover&lt;/code&gt; state for that link using inline styles.&lt;/p&gt;
+&lt;p&gt;There are Gatsby plugins to use almost any one of the css-in-js libraries I listed above, but I would recommend you to go with &lt;a href=&quot;https://github.com/threepointone/glamor&quot;&gt;Glamor&lt;/a&gt;. The way Glamor works is that it replaces the default &lt;code class=&quot;language-text&quot;&gt;JSX&lt;/code&gt; pragma with it’s own and that allows it to provide a &lt;code class=&quot;language-text&quot;&gt;css&lt;/code&gt; property to every component.&lt;/p&gt;
+&lt;p&gt;On the surface, this &lt;code class=&quot;language-text&quot;&gt;css&lt;/code&gt; property looks just like &lt;code class=&quot;language-text&quot;&gt;style&lt;/code&gt;, but behind the scenes Glamor uses some magic to generate actual stylesheets that are injected dynamically into your code. So that file above can become like this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h1
+  css&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;scale&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    marginBottom&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;rhythm&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    marginTop&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Link
+    css&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      boxShadow&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;none&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      textDecoration&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;none&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      color&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;inherit&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token string&quot;&gt;&apos;&amp;amp;:hover&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        color&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;rebeccapurple&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        textDecoration&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;underline&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    to&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;/&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    Gatsby Starter Blog
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;Link&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;As you can see, it’s pretty much the same as before, except that now I can add the &lt;code class=&quot;language-text&quot;&gt;:hover&lt;/code&gt; pseudo-class using a syntax that is very familiar to users of css pre-processors like &lt;a href=&quot;https://sass-lang.com/&quot;&gt;Sass&lt;/a&gt; or &lt;a href=&quot;http://lesscss.org/&quot;&gt;Less&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To use Glamor in your Gatsby installation &lt;a href=&quot;https://www.gatsbyjs.org/docs/glamor/&quot;&gt;follow the official instructions here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;(Ab)Use React&lt;/h2&gt;
+&lt;p&gt;I must confess that when I first heard about Gatsby and how it used React to generate static websites I rolled my eyes like a teenager being asked by his dad to explain Snapchat. But, it’s not that weird if you think of React as the succesor of PHP.&lt;/p&gt;
+&lt;p&gt;One of the great things about WordPress is that underneath the slick blogging UI it is kind of a PHP framework and if you know a) how to write PHP and b) how to plug into WordPress hooks, you could do almost anything you can imagine.&lt;/p&gt;
+&lt;p&gt;Same with Gatsby and React. Except that, in Gatsby-land, the line that divides content from code is a blurred one.&lt;/p&gt;
+&lt;p&gt;I am, for example, very proud of &lt;a href=&quot;/projects&quot;&gt;my projects page&lt;/a&gt; which, since I already know React, was very fun to make and it can be unique and special, not just a glorified blog post.&lt;/p&gt;
+&lt;h2&gt;The bad.&lt;/h2&gt;
+&lt;p&gt;Not to end with a negative note, but to be honest, I think that the big problem with Gatsby is that it’s not beginner-friendly at all and that the barrier to entry is rather high.&lt;/p&gt;
+&lt;p&gt;Myself, I have ~10 years of experience as a web developer, I do React and Node for a living and yet much of Gatsby feels like a mystic black-box.&lt;/p&gt;
+&lt;p&gt;Still, I like the result it produces and the recent investment makes me confident that this is something I want to keep learning. I don’t know, maybe I’ll get to know it as intimately as I used to know WordPress.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I hope this tips are useful, and if you have any comments or found a typo (English is not my first language)you can &lt;a href=&quot;https://twitter.com/soska&quot;&gt;find me on Twitter&lt;/a&gt; or drop me a line to arm.sosa[at]gmail.com.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World. Again.]]></title><description><![CDATA[The idea of writting again is terrifying. Yes, I used to write regularly in bloig-form for almost 6 years starting in 2004 and then I…]]></description><link>https://armandososa.org/2018/5/23/hello-world/</link><guid isPermaLink="false">https://armandososa.org/2018/5/23/hello-world/</guid><pubDate>Wed, 23 May 2018 21:49:32 GMT</pubDate><content:encoded>&lt;p&gt;The idea of writting again is terrifying.&lt;/p&gt;
 &lt;p&gt;Yes, I used to write regularly in bloig-form for almost 6 years starting in 2004 and then I stopped. I’ve been wanting for a while to write again and use that writing to re-launch my online presence but I can’t get myself to do it.&lt;/p&gt;
 &lt;p&gt;The most terrifying part is that I need to write in English this time, instead of my native Spanish and and I don’t feel very confident doing that. Don’t get me wrong: I’m already a lousy writter in my native language, but at least I have several decades of practice. Even then, it was the lack of relevancy of writting in Spanish was one of the things that made me stop almost a decade ago. I love my language but English is the norm in the tech space.&lt;/p&gt;
 &lt;p&gt;Another reason I stopped blogging is that I was sick of WordPress. It is true that developing WP themes and plugins put food on my table for many years but, ugh, it’s like when you work on a pizzeria for a while and hate pizza thereafter. Maybe I’ll reacquire a taste for dynamic PHP CMS but in the mean time this blog is &lt;a href=&quot;https://gatsbyjs.com&quot;&gt;powered by Gatsby&lt;/a&gt;.&lt;/p&gt;
