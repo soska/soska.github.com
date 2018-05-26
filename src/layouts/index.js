@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import Footer from '../components/footer';
 import Logo from '../components/logo';
 import gray from 'gray-percentage';
+require('prismjs/themes/prism-solarizedlight.css');
 
 import { rhythm, scale } from '../utils/typography';
 

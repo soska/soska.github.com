@@ -2,14 +2,15 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
 import get from 'lodash/get';
+import gray from 'gray-percentage';
 
 import { rhythm, scale } from '../utils/typography';
 
 const BlogPostHeader = ({ post }) => {
-  console.log(post);
+  const hasSubtitle = !!post.frontmatter.subtitle;
   return (
     <div
-      style={{
+      css={{
         background: 'tomato',
         padding: rhythm(1),
         position: 'relative',
@@ -17,16 +18,26 @@ const BlogPostHeader = ({ post }) => {
       }}
     >
       <h1
-        style={{
+        css={{
           color: 'white',
           fontWeight: 100,
+          marginBottom: hasSubtitle ? rhythm(0.1) : rhythm(1),
         }}
       >
         {post.frontmatter.title}
       </h1>
-      {post.frontmatter.subtitle && <h2>{post.frontmatter.subtitle}</h2>}
+      {post.frontmatter.subtitle && (
+        <h2
+          css={{
+            marginTop: 0,
+            color: gray(50),
+          }}
+        >
+          {post.frontmatter.subtitle}
+        </h2>
+      )}
       <p
-        style={{
+        css={{
           ...scale(-1 / 5),
           display: 'block',
           marginBottom: rhythm(1),
@@ -52,13 +63,13 @@ class BlogPostTemplate extends React.Component {
         <BlogPostHeader post={post} />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
-          style={{
+          css={{
             marginBottom: rhythm(1),
           }}
         />
 
         <ul
-          style={{
+          css={{
             display: 'flex',
             flexWrap: 'wrap',
             justifyContent: 'space-between',

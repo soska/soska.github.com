@@ -9,6 +9,7 @@
   "dependencies": {
     "gatsby": "^1.9.250",
     "gatsby-link": "^1.6.39",
+    "gatsby-plugin-favicon": "^2.1.1",
     "gatsby-plugin-feed": "^1.3.20",
     "gatsby-plugin-glamor": "^1.6.13",
     "gatsby-plugin-google-analytics": "^1.0.29",
@@ -30,7 +31,8 @@
     "typography-theme-wordpress-2016": "^0.15.10"
   },
   "devDependencies": {
-    "@dschau/create-gatsby-blog-post": "https://github.com/soska/create-gatsby-blog-post",
+    "@dschau/create-gatsby-blog-post":
+      "https://github.com/soska/create-gatsby-blog-post",
     "eslint": "^4.19.1",
     "eslint-plugin-react": "^7.7.0",
     "gh-pages": "^1.1.0",
@@ -39,9 +41,7 @@
     "prettier": "^1.12.0"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "main": "n/a",
   "repository": {
@@ -50,12 +50,14 @@
   },
   "scripts": {
     "dev": "gatsby develop",
-    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "lint":
+      "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --trailing-comma es5 --single-quote --write 'src/**/*.js' 'src/**/*.md'",
+    "format":
+      "prettier --trailing-comma es5 --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "write": "create-post --date-format \"YYYY/MM/DD\" ",
+    "write": "node ./create-post.js ",
     "deploy": "gatsby build && gh-pages -b master -d public"
   }
 }
