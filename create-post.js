@@ -4,6 +4,16 @@ const path = require('path');
 const pagesPath = path.resolve(__dirname, 'src/posts');
 const _ = require('lodash');
 
+const openInEditor = require('open-in-editor');
+const editor = openInEditor.configure(
+  {
+    editor: 'sublime',
+  },
+  function(err) {
+    console.error('Something went wrong: ' + err);
+  }
+);
+
 const getPostPath = postName => {
   const date = new Date();
   const parts = [
@@ -55,6 +65,7 @@ const main = () => {
   createPost(title)
     .then(fullPath => {
       console.log(`\n---\n- New post created at \n- ${fullPath}\n---`);
+      editor.open(path.join(fullPath, 'index.md'));
     })
     .catch(ex => {
       throw ex;
