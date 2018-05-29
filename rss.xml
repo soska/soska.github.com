@@ -1,4 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Armando Sosa]]></title><description><![CDATA[What is a blog.]]></description><link>https://armandososa.org</link><generator>RSS for Node</generator><lastBuildDate>Sat, 26 May 2018 00:33:35 GMT</lastBuildDate><item><title><![CDATA[So you want to build a blog with Gatsby?]]></title><description><![CDATA[This site runs on  Gatsby , the open source static website generator
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Armando Sosa]]></title><description><![CDATA[What is a blog.]]></description><link>https://armandososa.org</link><generator>RSS for Node</generator><lastBuildDate>Tue, 29 May 2018 22:39:28 GMT</lastBuildDate><item><title><![CDATA[GitHub Pages Three Ways]]></title><description><![CDATA[Is it weird that GitHub is quickly becoming my favorite hosting platform? I’ve been putting things online for a while now, but the truth is…]]></description><link>https://armandososa.org/2018/5/29/git-hub-pages-three-ways/</link><guid isPermaLink="false">https://armandososa.org/2018/5/29/git-hub-pages-three-ways/</guid><pubDate>Tue, 29 May 2018 20:55:31 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/real-artists-ship-7d420dc58f3a433d88e95e4de3821692-c1266.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 52.916666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAAB504sUSR//8QAGBABAAMBAAAAAAAAAAAAAAAAAQACERD/2gAIAQEAAQUCAy1QiE3v/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bp//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAQEBAAAAAAAAAAAAAAAAADEAIP/aAAgBAQAGPwJmcf/EABsQAQEAAgMBAAAAAAAAAAAAAAEAESFRgaHR/9oACAEBAAE/IU/GXw+YDrLqFzO5v//aAAwDAQACAAMAAAAQxD//xAAWEQADAAAAAAAAAAAAAAAAAAAQEVH/2gAIAQMBAT8QSD//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAYEAEBAQEBAAAAAAAAAAAAAAABEQAhMf/aAAgBAQABPxBudKB65uYzxYmYkTpbRNPKyfSu9b//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Real Artists Ship&quot;
+        title=&quot;&quot;
+        src=&quot;/static/real-artists-ship-7d420dc58f3a433d88e95e4de3821692-f8fb9.jpg&quot;
+        srcset=&quot;/static/real-artists-ship-7d420dc58f3a433d88e95e4de3821692-e8976.jpg 148w,
+/static/real-artists-ship-7d420dc58f3a433d88e95e4de3821692-63df2.jpg 295w,
+/static/real-artists-ship-7d420dc58f3a433d88e95e4de3821692-f8fb9.jpg 590w,
+/static/real-artists-ship-7d420dc58f3a433d88e95e4de3821692-85e3d.jpg 885w,
+/static/real-artists-ship-7d420dc58f3a433d88e95e4de3821692-d1924.jpg 1180w,
+/static/real-artists-ship-7d420dc58f3a433d88e95e4de3821692-c1266.jpg 1200w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Is it weird that GitHub is quickly becoming my favorite hosting platform? I’ve been putting things online for a while now, but the truth is that I have never enjoyed it. Getting a server up and going feels like a big hassle and as a result I almost always refrained from doing passion projects.&lt;/p&gt;
+&lt;p&gt;Well, no more.&lt;/p&gt;
+&lt;p&gt;Full disclaimer: I know that if you want to build a fully-featured backend application GitGub Pages is not going to be enough. But I hope this guide is helpful for people doing content projects or static single-page applications.&lt;/p&gt;
+&lt;h2&gt;Why GitHub Pages&lt;/h2&gt;
+&lt;p&gt;There are great static hosting companies like &lt;a href=&quot;https://www.netlify.com/&quot;&gt;Netlify&lt;/a&gt; or &lt;a href=&quot;https://surge.sh&quot;&gt;Surge&lt;/a&gt;. And there’s also Zeit’s &lt;a href=&quot;https://zeit.co/now&quot;&gt;Now&lt;/a&gt;, which does way more than just static hosting. Also, let’s remember that you can even use an S3 bucket to host static html on a custom domain.&lt;/p&gt;
+&lt;p&gt;While trying to decide for one those options, a friend asked me why I haven’t considered to use GitHub Pages. I honestly hadn’t think about it. For starters, I thought using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; was a requirement and —for no good reason— I just don’t like Jekyll. After &lt;a href=&quot;https://help.github.com/articles/using-a-static-site-generator-other-than-jekyll/&quot;&gt;I found that to be false&lt;/a&gt;, and since I was already using Git and GitHub for version-control and development purposes it was just minutes to have my project online.&lt;/p&gt;
+&lt;p&gt;It was an eye-opening moment. And I wondered what else I can use it for?&lt;/p&gt;
+&lt;h2&gt;Hosting a Gatsby blog&lt;/h2&gt;
+&lt;p&gt;I already wrote &lt;a href=&quot;https://armandososa.org/2018/5/25/gatsby/&quot;&gt;about my experience setting up this blog with Gatsby&lt;/a&gt; but I saved the recipe for the hosting part for this post. It’s actually quite simple, thanks to a &lt;a href=&quot;https://www.npmjs.com/package/gh-pages&quot;&gt;npm package called gh-pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The official &lt;a href=&quot;https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/&quot;&gt;instructions are pretty simple&lt;/a&gt; so there’s no need for me to duplicate them here. Just remember, if &lt;a href=&quot;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&quot;&gt;you’re using custom domains&lt;/a&gt; to save your CNAME file, not in the root of your project, but inside the &lt;code class=&quot;language-text&quot;&gt;static&lt;/code&gt; folder. Otherwise, your custom domain will stop working after every deploy.&lt;/p&gt;
+&lt;p&gt;In my experience, I wanted my domain &lt;code class=&quot;language-text&quot;&gt;armandososa.org&lt;/code&gt; to be the &lt;em&gt;anchor&lt;/em&gt; for all my current and future projects. So I set up my Gatsby blog as my &lt;a href=&quot;https://help.github.com/articles/user-organization-and-project-pages/#user-and-organization-pages-sites&quot;&gt;User Site&lt;/a&gt; with my domain poiting to it. This way, other repository projects automatically become subpaths for this host. For example, my &lt;a href=&quot;https://github.com/soska/react-keyboardist&quot;&gt;keyboardist&lt;/a&gt; repo, automatically becomes available under &lt;a href=&quot;https://armandososa.org/react-keyboardist&quot;&gt;armandososa.org/react-keyboardist&lt;/a&gt; which I find pretty neat.&lt;/p&gt;
+&lt;h2&gt;Hosting a Create React App project&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/facebook/create-react-app&quot;&gt;Create React App&lt;/a&gt; is Facebook’s official zero-configuration React Development tool and it’s jsut great. I happened to start a big project just months before CRA was released and I went back and ditched my whole home-made configuration and just used CRA default configuration instead. It just works™.&lt;/p&gt;
+&lt;p&gt;Chances are that, if you’re creating a React app for your boss or for a big client, you’ll put in a Docker container or whatever kids do these days. For small apps, side projects or just demos I think putting them in Github Pages is perfectly adequate.&lt;/p&gt;
+&lt;p&gt;To do just that you’ll have to install our helpful &lt;a href=&quot;https://www.npmjs.com/package/gh-pages&quot;&gt;gh-pages&lt;/a&gt; npm package.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ npm install gh-pages&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;And setup a &lt;code class=&quot;language-text&quot;&gt;deploy&lt;/code&gt; script in your &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt;, telling &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; where to fidn the compiled output.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;gh-pages -d build&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;If you add a &lt;code class=&quot;language-text&quot;&gt;predeploy&lt;/code&gt; script, it will be run before deploy. That’s helpful if you don’t want to forget to build your app first.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;predeploy&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;npm run build&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;gh-pages -d build&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;And if you need a &lt;code class=&quot;language-text&quot;&gt;CNAME&lt;/code&gt; file for your custom domain, you’ll have to put it in inside the &lt;code class=&quot;language-text&quot;&gt;public&lt;/code&gt; folder, along the favicon and other static files. CRA’s &lt;code class=&quot;language-text&quot;&gt;build&lt;/code&gt; script will copy the whole contents of this folder into the &lt;code class=&quot;language-text&quot;&gt;build&lt;/code&gt; folder when compiling your app.&lt;/p&gt;
+&lt;h2&gt;Just show me the Readme&lt;/h2&gt;
+&lt;p&gt;Sometimes you just want a quick public website for your Open Source project and you don’t have time to create a Gatsby blog or a React app. Or maybe you do have the time but choose to spend it watching The Office on Netflix and that’s cool. The point is that you don’t have to.&lt;/p&gt;
+&lt;p&gt;If you already have a well-crafted &lt;code class=&quot;language-text&quot;&gt;README.md&lt;/code&gt; (and you should), all you need to do is go to your repository settings and select &lt;code class=&quot;language-text&quot;&gt;master branch&lt;/code&gt; as the source of your GitHub Pages and GitHub will use it to build your page. I like the default theme, but you can select a different one.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/settings-c67caf7e49871ae75d20aaaae5b2454f-c2a76.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 43.8618925831202%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABXUlEQVQoz42R2U7DMBBF8/9/BhXlBR4KApo2zeI63tJQx7F9GbuRaEFITHQ0izyTWQrrAno9ozceUg0QvYA2BloraCWzllJkToPJmvOe3ioIITPJt9YiSTF6i6fhHet+gwf+jLv2EWu+wepYElvcsy1WiWRTLPmbc4nXab+ww4vd4c0fUAWGYooOlW1RO4Yu9GgzgtDk66wbf6t7qMwRckGBRYFjUChiiDjsa7CWYRxGaKmzNkpDCwVFDNqQbzCa0yVO60lEj4vEhUAjJ19qjXJf4aPco5cSHaedUZHJTbDTBOcc2e5bzyETYsT1F2KgDikopELTMbAjp4QZlvAh4D+S8hNJAk1bBErsug513aBpGrqagKILaupaLZfknEPpEcLMGM/zTaFfBZPBKWlX1TT2AYzGTT+ZZ+rSe8yJbFPMx5z0l6QV5JGtnXAaPzN2cksHC1ej4UdXP0mNfAEPKLaxe3T34QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;settings&quot;
+        title=&quot;&quot;
+        src=&quot;/static/settings-c67caf7e49871ae75d20aaaae5b2454f-fb8a0.png&quot;
+        srcset=&quot;/static/settings-c67caf7e49871ae75d20aaaae5b2454f-1a291.png 148w,
+/static/settings-c67caf7e49871ae75d20aaaae5b2454f-2bc4a.png 295w,
+/static/settings-c67caf7e49871ae75d20aaaae5b2454f-fb8a0.png 590w,
+/static/settings-c67caf7e49871ae75d20aaaae5b2454f-c2a76.png 782w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Hot tip: If you want to add images to spice up your &lt;code class=&quot;language-text&quot;&gt;README&lt;/code&gt;, you can add them to your repo. For example, I like having an &lt;code class=&quot;language-text&quot;&gt;assets&lt;/code&gt; folder because I saw someone else naming it that.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;![](assets/screenshot.png)&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;So these are three ways that I’ve been using GitHub Pages to remove friction from my development process. This way I can actually ship stuff instead of just having tons of unreleased side projects in my hard disk.&lt;/p&gt;
+&lt;p&gt;What did I miss? &lt;a href=&quot;https://twitter.com/soska&quot;&gt;Let me know on Twitter&lt;/a&gt; or send me an e-mail to arm.sosa[at]gmail.com.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[So you want to build a blog with Gatsby?]]></title><description><![CDATA[This site runs on  Gatsby , the open source static website generator
 that just recently  became a venture backed company  and I’m liking it…]]></description><link>https://armandososa.org/2018/5/25/gatsby/</link><guid isPermaLink="false">https://armandososa.org/2018/5/25/gatsby/</guid><pubDate>Fri, 25 May 2018 18:46:40 GMT</pubDate><content:encoded>&lt;p&gt;This site runs on &lt;a href=&quot;https://gatsbyjs.com&quot;&gt;Gatsby&lt;/a&gt;, the open source static website generator
 that just recently &lt;a href=&quot;https://www.gatsbyjs.org/blog/2018-05-24-launching-new-gatsby-company/&quot;&gt;became a venture backed company&lt;/a&gt; and I’m liking it a lot. Look, this is just the third CMS I have used in my &lt;em&gt;whole life&lt;/em&gt; so it’s kinda big deal. My first blog, around 2003, was done in &lt;a href=&quot;https://www.movabletype.org/&quot;&gt;Movable Type&lt;/a&gt; 2 and I only switched to WordPress in 2006.&lt;/p&gt;
 &lt;p&gt;WordPress was not only my CMS of choice, it also became a good chunk of my livelihood so the decision of switching to something else did not come easy. But all my research indicates that static web builders are the future and Gatsby seems to be the best choice for my needs.&lt;/p&gt;
