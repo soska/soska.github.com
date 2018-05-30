@@ -114,6 +114,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         subtitle
+        blurb
         date(formatString: "MMMM DD, YYYY")
       }
     }

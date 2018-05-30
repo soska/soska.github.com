@@ -3,6 +3,7 @@ path: 2018/5/29/git-hub-pages-three-ways
 date: "2018-05-29T20:55:31.696Z"
 title: GitHub Pages Three Ways
 subtitle: Why you may not need a hosting company
+blurb: Is it weird that GitHub is quickly becoming my favorite hosting platform?
 tags: ['gh-pages','github','hosting','tutorial']
 ---
 

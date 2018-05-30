@@ -44,7 +44,11 @@ class BlogIndex extends React.Component {
               >
                 {node.frontmatter.date}
               </span>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: node.frontmatter.blurb || node.excerpt,
+                }}
+              />
             </div>
           );
         })}
@@ -72,6 +76,7 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "DD MMMM, YYYY")
             title
+            blurb
           }
         }
       }

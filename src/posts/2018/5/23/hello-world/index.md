@@ -3,6 +3,7 @@ path: 2018/5/23/hello-world
 date: "2018-05-23T21:49:32.630Z"
 title: Hello World. Again.
 subtitle: a declaration of intentions
+blurb: The idea of writting again is terrifying.
 tags: []
 ---
 
