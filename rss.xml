@@ -1,4 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Armando Sosa]]></title><description><![CDATA[What is a blog.]]></description><link>https://armandososa.org</link><generator>RSS for Node</generator><lastBuildDate>Wed, 30 May 2018 16:23:33 GMT</lastBuildDate><item><title><![CDATA[GitHub Pages Three Ways]]></title><description><![CDATA[Is it weird that GitHub is quickly becoming my favorite hosting platform? I’ve been putting things online for a while now, but the truth is…]]></description><link>https://armandososa.org/2018/5/29/git-hub-pages-three-ways/</link><guid isPermaLink="false">https://armandososa.org/2018/5/29/git-hub-pages-three-ways/</guid><pubDate>Tue, 29 May 2018 20:55:31 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Armando Sosa]]></title><description><![CDATA[What is a blog.]]></description><link>https://armandososa.org</link><generator>RSS for Node</generator><lastBuildDate>Fri, 08 Jun 2018 17:56:37 GMT</lastBuildDate><item><title><![CDATA[Presenting Keyboardist]]></title><description><![CDATA[I really like my keyboard shortcuts. Nothing says Power User ™  than expertly using an application without even without touching the mouse…]]></description><link>https://armandososa.org/2018/6/4/keyboardist/</link><guid isPermaLink="false">https://armandososa.org/2018/6/4/keyboardist/</guid><pubDate>Mon, 04 Jun 2018 19:18:32 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/keyboardist-afe22172fb5a3fc5453cca6d9275b4e1-9f6e6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAACv0lEQVQoz33S3UtTcRwG8FMUURruRZ0vm2VLEal5EWjLokypm/4CCaSbooiiIoxEbBaCWoHVxcQpQkQEsyBIFwSSsRm+sLPt7Jwz3dzLefudnXPmnBvzbLZfszLIi567D9/n6uGL8DyzB8LELuRPBI7ZC+H6Did3OLXDaeRvKDqmcJGsWia4RohzZSQQC9xeqlgm2CaIsRqSFQs8+Ja5k3mX+lih0I1T+T5rhB66dIlfLXQRjCpDcMacjytDYNZbji9EtMJyVC9RrBZCTBXyAa0UEI7GOU4HYVCJo0DL40xtIgry94iSWKSq1iKSPp7OlEPoKfbOR7Sin6+R6GgpktlYqeclugzl7G0SFIty8kr99Gf3oQXG3oLB9L4sPdfABr2VGMSaHFJsvwzsBiabUM75Zy5SlifqzZS/jpEiFS7e0QZWCQWy5GEvCOxySQBC5er4/fbgaLeZGLjWJZk7emw3TZalwd7O+NCt687+nkfvLz8YDI6ZnkdHrj5+dcXcy1tu9wRdgUtATitDorsSZrFqJIADrWveq4JxWM8P9bVP3RvsRZ8+MyXfDQ/MmIanfaauu4mRhyOuF+ZJoq9zNPb2Tjdv7bOM33jTT9lednAsU+VA+YNZAhhzJNAg+Q1KifmwDqwI1alFrGbjg/WEc+jTWcH61ShNfGnKWsca2dcfmxM27Hgmk9LA9YkKNyZrlxfC1SIlaCBEVVsbCn7we0M5vXKMl5hyFDjaqBxWlIOCPgV/FDvjc+ckGCrchGtHaCiXOMXZ8yCBKjIZrpYTgxVuYbZVSrkUmXSojhHDlSjvaAVxXIH4XGwLWBWUjETqkgJh8DmZMyxNFzM8VrXO4w0+J30acNQvJwXS4EPZZk4EalrAdUmRNJAodwrEomo6Sh6GslePYPZwwfZPzk7Gdnu+hQ5s+/uU+K9t//dWfgIHjOca1bkxXQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;keyboardist&quot;
+        title=&quot;&quot;
+        src=&quot;/static/keyboardist-afe22172fb5a3fc5453cca6d9275b4e1-fb8a0.png&quot;
+        srcset=&quot;/static/keyboardist-afe22172fb5a3fc5453cca6d9275b4e1-1a291.png 148w,
+/static/keyboardist-afe22172fb5a3fc5453cca6d9275b4e1-2bc4a.png 295w,
+/static/keyboardist-afe22172fb5a3fc5453cca6d9275b4e1-fb8a0.png 590w,
+/static/keyboardist-afe22172fb5a3fc5453cca6d9275b4e1-526de.png 885w,
+/static/keyboardist-afe22172fb5a3fc5453cca6d9275b4e1-fa2eb.png 1180w,
+/static/keyboardist-afe22172fb5a3fc5453cca6d9275b4e1-9f6e6.png 1200w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;I really like my keyboard shortcuts. Nothing says Power User™ than expertly using an application without even without touching the mouse. So, whenever I am building a web app I always try to add some keyboard capabilites to navigate the UI.&lt;/p&gt;
+&lt;p&gt;Recently, while making our React Dashboard I wanted to add some keyboard shortcuts, for example, having the global search input gain focus when the slash (&lt;code class=&quot;language-text&quot;&gt;/&lt;/code&gt;) key is pressed. That’s a pretty common and useful shortcut right?. I couldn’t find an easy and declarative way to do this in React so I built a component that works like this.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Dashboard&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;focusSearch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// do some vodoo here to get the search focused&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token function&quot;&gt;doSomethingElseWhenPressingSpace&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Space was pressed&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div className&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;dashboard&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Keyboardist
+          bindings&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            Slash&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;focusSearch&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            Space&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;doSomethingElseWhenPressingSpace&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;I really liked this approach because it is declarative and since it’s a component, it takes care of suscribing/unsuscribing to events using the component’s lifecycle. We’ve been using this in production for a couple years now and despite some tweaking I’m very happy with it.&lt;/p&gt;
+&lt;p&gt;Just recently I realized that most of what this component is doing is not tied to React itself, so I extracted the code into a dependency-free, library-agnostic JavaScript library called &lt;a href=&quot;https://soska.github.io/keyboardist.js&quot;&gt;Keyboardist&lt;/a&gt; and I’m releasing it along with &lt;a href=&quot;https://soska.github.io/react-keyboardist&quot;&gt;React-Keyboardist&lt;/a&gt; which is the React wrapper.&lt;/p&gt;
+&lt;p&gt;This is what pure-javascript Keyboardist looks like.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// import the library&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; createListener &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;keyboardist&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// creates a listener, by default it listens to &apos;keydown&apos; events.&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; listener &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;//the listener has a suscribe function&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; subscription &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; listener&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;subscribe&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Slash&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; focusSearch&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// And later you want to cancel the subscription for some reason&lt;/span&gt;
+subscription&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;unsuscribe&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;It has a &lt;a href=&quot;https://soska.github.io/keyboardist.js&quot;&gt;really simple API&lt;/a&gt; and I hope to make wrappers for other frameworks other than React.&lt;/p&gt;
+&lt;p&gt;You can install them via &lt;code class=&quot;language-text&quot;&gt;npm&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;yarn&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Demos&lt;/h2&gt;
+&lt;p&gt;I built two simple demos for both Keyboardist and React-Keyboardist. Their require, you know, a keyboard.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://soska.github.io/keyboardist.js&quot;&gt;Keyboardist Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://soska.github.io/react-keyboardist&quot;&gt;React-Keyboardist Demo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Meta&lt;/h2&gt;
+&lt;p&gt;This is my first ever Open Source package and I’m kinda freaked out about the reception (or lack thereof) that this is going to receive. Regardless, I would be very happy to hear any feedback. If you have any, you can &lt;a href=&quot;https://twitter.com/soska&quot;&gt;find me on Twitter&lt;/a&gt; or via email at &lt;strong&gt;arm.sosa[at]gmail.com&lt;/strong&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GitHub Pages Three Ways]]></title><description><![CDATA[Is it weird that GitHub is quickly becoming my favorite hosting platform? I’ve been putting things online for a while now, but the truth is…]]></description><link>https://armandososa.org/2018/5/29/git-hub-pages-three-ways/</link><guid isPermaLink="false">https://armandososa.org/2018/5/29/git-hub-pages-three-ways/</guid><pubDate>Tue, 29 May 2018 20:55:31 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/real-artists-ship-7d420dc58f3a433d88e95e4de3821692-c1266.jpg&quot;
