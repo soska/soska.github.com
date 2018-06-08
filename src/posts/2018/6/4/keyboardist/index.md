@@ -39,7 +39,7 @@ class Dashboard extends React.Component {
 
 I really liked this approach because it is declarative and since it's a component, it takes care of suscribing/unsuscribing to events using the component's lifecycle. We've been using this in production for a couple years now and despite some tweaking I'm very happy with it.
 
-Just recently I realized that most of what this component is doing is not tied to React itself, so I extracted the code into a dependency-free, library-agnostic JavaScript library called [Keyboardist](https://soska.github.io/keyboardist.js) and I'm releasing it along with [React-Keyboardist](https://soska.github.io/react-keyboardist) which is the React wrapper.
+Just recently I realized that most of what this component is doing is not tied to React itself, so I extracted the code into a dependency-free, library-agnostic JavaScript library called [Keyboardist](https://github.com/soska/keyboardist.js) and I'm releasing it along with [React-Keyboardist](https://github.com/soska/react-keyboardist) which is the React wrapper.
 
 This is what pure-javascript Keyboardist looks like.
 
@@ -57,7 +57,7 @@ const subscription = listener.subscribe('Slash', focusSearch);
 subscription.unsuscribe();
 ```
 
-It has a [really simple API](https://soska.github.io/keyboardist.js) and I hope to make wrappers for other frameworks other than React.
+It has a [really simple API](https://github.com/soska/keyboardist.js) and I hope to make wrappers for other frameworks other than React.
 
 You can install them via `npm` or `yarn`.
 
@@ -65,8 +65,8 @@ You can install them via `npm` or `yarn`.
 
 I built two simple demos for both Keyboardist and React-Keyboardist. Their require, you know, a keyboard.
 
-* [Keyboardist Demo](https://soska.github.io/keyboardist.js/docs/index.html)
-* [React-Keyboardist Demo](https://soska.github.io/react-keyboardist/docs/index.html)
+* [Keyboardist Demo](https://armandososa.org/keyboardist.js/docs/index.html)
+* [React-Keyboardist Demo](https://armandososa.org/react-keyboardist/docs/index.html)
 
 ## Meta
 
