@@ -65,8 +65,8 @@ You can install them via `npm` or `yarn`.
 
 I built two simple demos for both Keyboardist and React-Keyboardist. They require, you know, a keyboard.
 
-* [Keyboardist Demo](https://armandososa.org/keyboardist.js/docs/index.html)
-* [React-Keyboardist Demo](https://armandososa.org/react-keyboardist/docs/index.html)
+* [Keyboardist Demo](https://soska.github.io/keyboardist/docs/index.html)
+* [React-Keyboardist Demo](https://soska.github.io/react-keyboardist/docs/index.html)
 
 ## Meta
 
