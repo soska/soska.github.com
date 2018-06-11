@@ -44,12 +44,12 @@ const Projects = () => {
       <Project name="React Keyboardist" link={github('react-keyboardist')}>
         React wrapper for Keyboardist
       </Project>
-      <Project name="Unavatar" link={github('unavatar')}>
+      {/*      <Project name="Unavatar" link={github('unavatar')}>
         React component to add alphanumeric avatars to users.
       </Project>
       <Project name="Adaptables" link={github('adaptables')}>
         React component to create responsive tables.
-      </Project>
+      </Project>*/}
     </div>
   );
 };
