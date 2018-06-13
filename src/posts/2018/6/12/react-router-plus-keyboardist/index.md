@@ -6,11 +6,11 @@ blurb: In which we make a Route component that respond to keyboard input
 tags: [react-keyboardist, react-router, react]
 ---
 
-[Last week I presented you](/2018/6/4/keyboardist/) with [React Keyboardist](https://github.com/soska/react-keyboardist) and based on the feedback I received, looks like haven't been very good at explaining the value-proposition of this project, so I remember something I did for a small internal project and thought to show it to you.
+[Last week I presented you](/2018/6/4/keyboardist/) with [React Keyboardist](https://github.com/soska/react-keyboardist) and based on the feedback I received, it looks like I haven't been very good at explaining the value-proposition of this project. So I thought of sharing an useful piece of code that we've been using on a small internal project.
 
 ![Fake Dashboard Illustration](fake-dashboard.png)
 
-So, if you think of your typical admin dashboard application, you'll most likely have a sidebar with links pointing to the various part of your objects. If you use React-Router, you would do the routes part like this:
+First, think of your typical admin dashboard application. Most likely it has a main navigation with links pointing to the main screens of your system. To write such application using React and [React-Router](https://reacttraining.com/react-router/), you may start with something like this:
 
 ```javascript
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
@@ -52,9 +52,13 @@ const Dashboard = () => (
 );
 ```
 
-What if, let's say, you wanted to give special abilities to you power users, like letting them navigate trough the different parts of your dashboard using their keyboard instead of their mouse?. Like, for example, they could press the letter <kbd>P</kbd> to go to `/posts`, <kbd>C</kbd> to go to `/comments` and so on.
+That's phenomenal. The `Route` and `NavLink` components will do the heavy lifting and your only concern will be to make a nice design around it.
 
-And what if we could do that by just declaring a property on our `Route` component?
+But what if, let's say, you wanted to give special abilities to you power users, like letting them navigate trough the different routes using keyboard shortcuts instead of reaching for their mouse?. Like, for example, they could press the letter <kbd>P</kbd> to go to `/posts`, <kbd>C</kbd> to go to `/comments` and so on. I bet people with [RSI](https://en.wikipedia.org/wiki/Repetitive_strain_injury) would like that too.
+
+And I know that this is the kind of feature that dies in the planning phase because it is hard to justify spending time on something the majority of users wont even know about.
+
+But… what if we could implement it by just declaring a property on our `Route` component?
 
 Well, using `React-Keyboardist`, it is possible to create a drop-in replacement for `Route` that is enhanced with amazing keyboard super powers.
 
