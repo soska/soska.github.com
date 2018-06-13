@@ -35,6 +35,18 @@ const theme: OptionsType = {
       marginLeft: rhythm(-1),
       borderLeft: `${rhythm(3 / 16)} solid ${gray(10)}`,
     },
+    kbd: {
+      fontSize: '0.85rem',
+      lineHeight: '1.75rem',
+      fontFamily: '"Noto Serif", monospace',
+      color: '#789',
+      display: 'inline-block',
+      padding: '0 6px',
+      background: 'white',
+      border: '1px solid #e0e0e0',
+      borderRadius: '3px',
+      boxShadow: 'rgba(0,0,0,.5) 1px 1px 0',
+    },
     'blockquote > :last-child': {
       marginBottom: 0,
     },
