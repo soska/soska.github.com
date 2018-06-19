@@ -39,4 +39,4 @@ const App = () => (
 
 Don't you think that's cool? I **do** think that's cool.
 
-If you want to know more, [check the README in Github](https://github.com/soska/material-jsx-icons.
+If you want to know more, [check the README in Github](https://github.com/soska/material-jsx-icons).
