@@ -111,7 +111,7 @@ And now you can replace each `Route` component with `KeyboardRoute` and assing a
 </div>
 ```
 
-In case that you find this useful, the code [is both on Github](https://github.com/soska) and published on npm. I also [made a cute demo](https://soska.github.io/react-router-plus-keyboardist/), so you can see it in action.
+In case that you find this useful, the code [is both on Github](https://github.com/soska/react-router-plus-keyboardist) and published on npm. I also [made a cute demo](https://soska.github.io/react-router-plus-keyboardist/), so you can see it in action.
 
 ```
 npm install --save react-router-plus-keyboardist
