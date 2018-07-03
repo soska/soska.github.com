@@ -18,3 +18,5 @@ It's called [Savage](https://savage.now.sh) ("SaVaGe" got it?) and it actually i
 And of course, the code is kinda messy, but [it is open source](https://github.com/soska/savagejsx).
 
 If you find this useful in any shape or form, [let me know on Twitter](https://twitter.com/soska)
+
+P.S. I know that you can use a Webpack loader to just include SVG files in your code, but when it is just code, you can do things with it, like styling it using your favorite css-in-js library or add logic.
