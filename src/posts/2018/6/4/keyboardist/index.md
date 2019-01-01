@@ -8,9 +8,9 @@ tags: [Open Source, Keyboardist, React, JavaScript]
 
 ![](keyboardist.png)
 
-I really like my keyboard shortcuts. Nothing says Power User&trade; than expertly using an application without even without touching the mouse. So, whenever I am building a web app I always try to add some keyboard capabilites to navigate the UI.
+I really enjoy my keyboard shortcuts. Nothing says Power User&trade; more than breezing through the UI without reaching for the mouse. So, whenever I am building a web app I always try to add some keyboard capabilites to navigate the interface.
 
-Recently, while making our React Dashboard I wanted to add some keyboard shortcuts, for example, having the global search input gain focus when the slash (`/`) key is pressed. That's a pretty common and useful shortcut right?. I couldn't find an easy and declarative way to do this in React so I built a component that works like this.
+Recently I wanted to add some keyboard shortcuts to our React Dashboard. Simple example: focus the search input when the slash (`/`) key is pressed. That's a pretty common and useful shortcut, right?. I couldn't find an easy and declarative way to do this in React, so I built a component that works like this:
 
 ```javascript
 class Dashboard extends React.Component {
@@ -37,11 +37,11 @@ class Dashboard extends React.Component {
 }
 ```
 
-I really liked this approach because it is declarative and since it's a component, it takes care of suscribing/unsuscribing to events using the component's lifecycle. We've been using this in production for a couple years now and despite some tweaking I'm very happy with it.
+I liked this approach because it is declarative, and since it's a component, it takes care of suscribing/unsuscribing to events using the component's lifecycle. We've been using this in production for a couple years now and despite some tweaking I'm very happy with it.
 
-Just recently I realized that most of what this component is doing is not tied to React itself, so I extracted the code into a dependency-free, library-agnostic JavaScript library called [Keyboardist](https://github.com/soska/keyboardist) and I'm releasing it along with [React-Keyboardist](https://github.com/soska/react-keyboardist) which is the React wrapper.
+But I recently realized that most of what this component is doing is not tied to React itself, so I extracted the code into a dependency-free, library-agnostic JavaScript library called [Keyboardist](https://github.com/soska/keyboardist.js) and I'm releasing it along with [React-Keyboardist](https://github.com/soska/react-keyboardist) which is the React wrapper.
 
-This is what pure-javascript Keyboardist looks like.
+This is what pure-javascript Keyboardist looks like:
 
 ```javascript
 // import the library
@@ -57,17 +57,17 @@ const subscription = listener.subscribe('Slash', focusSearch);
 subscription.unsuscribe();
 ```
 
-It has a [really simple API](https://github.com/soska/keyboardist) and I hope to make wrappers for other frameworks other than React.
+It has a [really simple API](https://github.com/soska/keyboardist.js) and I hope to make wrappers for some frameworks besides React.
 
 You can install them via `npm` or `yarn`.
 
 ## Demos
 
-I built two simple demos for both Keyboardist and React-Keyboardist. Their require, you know, a keyboard.
+I built two simple demos for both Keyboardist and React-Keyboardist. They require, you know, a keyboard.
 
 * [Keyboardist Demo](https://soska.github.io/keyboardist/docs/index.html)
 * [React-Keyboardist Demo](https://soska.github.io/react-keyboardist/docs/index.html)
 
 ## Meta
 
-This is my first ever Open Source package and I'm kinda freaked out about the reception (or lack thereof) that this is going to receive. Regardless, I would be very happy to hear any feedback. If you have any, you can [find me on Twitter](https://twitter.com/soska) or via email at **arm.sosa[at]gmail.com**.
+This is my first ever Open Source package and I'm kinda freaked out about the reception (or lack thereof) that this is going to receive. Regardless, I would be very happy to hear your feedback. If you have any, you can [find me on Twitter](https://twitter.com/soska) or via email at **arm.sosa[at]gmail.com**.
